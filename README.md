@@ -7,7 +7,7 @@
 - 🚧 A domain name
 - 🌏 NS hosting
 - 🧭 Static public IP
-- 🚩 Linux server
+- 🚩 Ubuntu server
 
 <br>
 
