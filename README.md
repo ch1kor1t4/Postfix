@@ -68,5 +68,16 @@ Postfix´s config will be stored in main.cf file, all the parameters to make the
 ##### 10. Let´s test the service by sending and email.
 >echo "Body of the mail" | mail -s "Subject" mail@server.com
 
+You can also check postfix status
+>systemctl status postfix
+
+If everything is alright you will see something like:
+>● postfix.service - Postfix Mail Transport Agent
+>    Loaded: loaded (/lib/systemd/system/postfix.service; enabled; vendor p>
+>    Active: active (exited) since Fri 2022-06-17 08:23:02 CST; 18s ago
+>    Process: 49401 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+>    Main PID: 49401 (code=exited, status=0/SUCCESS)
+
+
 ***That´s it! If you want to use DKIM with your postfix, check this out.***
 
